@@ -39,7 +39,7 @@ public class PongView extends JFrame {
         flipVerticalItem.setMnemonic('F');
         pongMenu.add(flipVerticalItem);
 
-        JMenuItem pauseItem = new JMenuItem("Pause/Continue");
+        JMenuItem pauseItem = new JMenuItem("Pause/Resume");
         pauseItem.setMnemonic('P');
         pongMenu.add(pauseItem);
 
@@ -51,8 +51,8 @@ public class PongView extends JFrame {
 
         popupMenu = new JPopupMenu();
         popupMenu.add(new JMenuItem("Flip Vertically"));
-        popupMenu.add(new JMenuItem("Pause/Continue"));
-        popupMenu.add(new JMenuItem("Exit"));
+        popupMenu.add(new JMenuItem("Pause/Resume"));
+        popupMenu.add(new JMenuItem("Quit"));
 
         /* CENTER:
          * The panel where Pong is played
