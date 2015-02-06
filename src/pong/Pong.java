@@ -30,7 +30,7 @@ public class Pong {
 				new PongRepaintController(model, view);
 		
 		// repaint timer so that the window will update every 25 ms
-	    new Timer(25, repaintController).start();
+	    new Timer(20, repaintController).start();
 		
 		/* register other controllers as listeners */
 		view.registerListeners(mouseController, resizeController,
