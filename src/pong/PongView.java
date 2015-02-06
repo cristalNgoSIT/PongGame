@@ -68,7 +68,7 @@ public class PongView extends JFrame {
          * Borrowed from Figure 14.15.
          */
         statusBar = new JLabel("The status bar is open.");
-        statusBar.setBackground(Color.YELLOW);
+        statusBar.setBackground(Color.ORANGE);
         statusBar.setOpaque(true); // need this for setBackground to work
         add(statusBar, BorderLayout.SOUTH);
 
