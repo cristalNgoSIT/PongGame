@@ -22,7 +22,7 @@ public class PongView extends JFrame {
      * @param model the model for this Pong game
      */
     public PongView(PongModel model) {
-        super("Simple Pong Game for SIT students");
+        super("Simple Pong Game for SIT students and lectures");
         this.model = model;
         flipVertical = false;
 
