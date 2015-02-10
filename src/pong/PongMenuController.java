@@ -28,7 +28,7 @@ public class PongMenuController extends KeyAdapter implements ActionListener {
 		if (command.equals("Exit")) {
 			view.dispose();
 			System.exit(0);
-		} else if (command.equals("Pause/Continue")) {
+		} else if (command.equals("Pause/Resume")) {
 			model.setPause(! model.getPause());
 		} else if (command.equals("Flip Vertically")) {
 			view.setFlipVertical(! view.getFlipVertical());
